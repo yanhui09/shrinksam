@@ -39,7 +39,7 @@ void show_usage(int status) {
 
 int main(int argc, char *argv[]) 
 {
-	locale loc("en_US");
+	locale loc("en_US.UTF-8");
 	cout.imbue(loc);
 
 	int c;                            // for getopt
